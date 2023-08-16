@@ -1,10 +1,10 @@
 # By default, use the first connected FTDI USB-serial cable we find. (macOS)
 # May be overridden by setting the $FTDI_DEV environment variable in your shell
 # configuration.
-FTDI_DEV ?= $(firstword $(wildcard /dev/cu.usbserial-*))
+FTDI_DEV ?= /dev/ttyUSB0
 
 # Clock frequency in Hz
-F_CPU = 12000000
+F_CPU = 8000000
 # Serial baud rate
 BAUD  = 57600
 
