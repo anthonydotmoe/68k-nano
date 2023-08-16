@@ -1,3 +1,4 @@
+~*.lck
 .DS_Store
 *.swp
 *.bck
