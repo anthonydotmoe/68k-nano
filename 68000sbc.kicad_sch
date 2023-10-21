@@ -4596,6 +4596,12 @@
     (uuid fe31513a-7675-4a83-b630-6b5f17bec864)
   )
 
+  (rectangle (start 312.42 17.78) (end 403.86 248.92)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid e8e05c43-de72-4d0d-a949-27caed2408e1)
+  )
+
   (text "MCR[1]" (at 187.325 186.055 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 030e62fc-7058-48fa-806e-b438b92bdbaa)
@@ -4649,6 +4655,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4bdc38b8-21f1-4c37-a943-39c0321b2906)
   )
+  (text "    Address Bit    --->   Inverter?  --->   NAND\n    ------------------------------------------------\n    Bit 23  (1)    --->   No         --->   \\\n                                                   \\\n    Bit 22  (0)    --->   Yes        --->      \\\n                                                     --> NAND Output (~{Slot CS})\n    Bit 21  (0)    --->   Yes        --->      /\n                                                   /\n    Bit 20  (0)    --->   Yes        --->   /\n\n"
+    (at 309.88 45.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4f3cbd7f-92ed-4037-8eab-9b70b7ae1930)
+  )
   (text "GND" (at 295.91 201.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d99e86e-3ac1-4687-a96e-88b9283ab6ad)
@@ -4668,6 +4679,10 @@
   (text "~{SS}" (at 295.91 217.17 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 814c067e-bccd-4a57-a5da-4cbaf344393d)
+  )
+  (text "Additional logic to select MSX cartridge" (at 314.96 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 83ff350d-2d6a-47eb-babc-c490d2b36a2c)
   )
   (text "Modem control lines can be used\nfor bit-banged SPI."
     (at 218.44 170.18 0)
